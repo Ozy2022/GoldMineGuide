@@ -57,27 +57,35 @@ gold mining details.
 ![login](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/27c61175-70c1-44c1-8c60-b58d972965d2)
 
 
-4-User_Profile
-
-![UserProfile](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f5d87b20-3b57-481d-ad7f-eb2663cccfa4)
-
-5-GalleryPage
+4-GalleryPage
 
 ![Gallery](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/4be086e2-9bc8-4488-aa57-029f3cb0614d)
 
-6-Privacy&Policye
+5-Privacy&Policye
 
 ![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/e94639d8-04cd-467e-8651-a75981ce1785)
 
-7-Services
+6-Services
 
 ![services](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/6a483709-7ead-4531-bebe-bcd71673099c)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Part2
+Part2 
 
-1-
+1-Mining_Gold_List
+
+![GoldMineInfoTable](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f4b8cd2f-0ad3-4a45-801e-e0cd95087fb1)
+
+2-Confirmation_Message
+
+![Confirmation_message](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/1247645c-aa39-45e3-b1a1-a9d87d1f53ed)
+
+3-User_Profile
+
+![UserProfile](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f5d87b20-3b57-481d-ad7f-eb2663cccfa4)
+
+
 
 
 
