@@ -1,6 +1,5 @@
 ##Overview of The Gold_Mine_Guide ASP.NET MVC Project. 
 
-
 #Objectives 
 
 • To develop a scalable and user-friendly AWS-hosted web app tailored to the mining 
