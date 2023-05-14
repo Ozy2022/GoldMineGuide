@@ -38,3 +38,46 @@ facility by the administrative staff. However, the administration has complete c
 when mining sites are added or removed. The miner's report on the site's current status will be 
 visible to staff accounts as well. In addition, the staff have the ability to edit, create and delete 
 gold mining details. 
+
+#Project_Screenshots:
+#Part1
+
+1-HomePage:
+
+![Home](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/89e1ab66-23f4-4c54-b396-447224ddae83)
+
+2-AboutUS
+
+![About](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/9f56e565-e16e-48f1-9a23-5563f8be6aa7)
+
+3-Sign up and Sign in page
+
+![Sign-up](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/50d9a220-b76f-4d7b-afd2-43504a468c6b)
+
+![login](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/27c61175-70c1-44c1-8c60-b58d972965d2)
+
+
+4-User_Profile
+
+![UserProfile](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f5d87b20-3b57-481d-ad7f-eb2663cccfa4)
+
+5-GalleryPage
+
+![Gallery](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/4be086e2-9bc8-4488-aa57-029f3cb0614d)
+
+6-Privacy&Policye
+
+![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/e94639d8-04cd-467e-8651-a75981ce1785)
+
+7-Services
+
+![services](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/6a483709-7ead-4531-bebe-bcd71673099c)
+
+------------------------------------------------------------------------------------------------------------------------
+
+Part2
+
+1-
+
+
+
