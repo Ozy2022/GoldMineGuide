@@ -40,6 +40,7 @@ visible to staff accounts as well. In addition, the staff have the ability to ed
 gold mining details. 
 
 #Project_Screenshots:
+
 #Part1
 
 1-HomePage:
