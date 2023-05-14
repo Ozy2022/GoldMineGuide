@@ -87,6 +87,84 @@ Part2
 ![UserProfile](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f5d87b20-3b57-481d-ad7f-eb2663cccfa4)
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+##AWS_Services
+
+Amazon SQS, AWS Lambda, HTTP, email, mobile push notifications, and mobile text messaging (SMS) are all available for subscribers to use to receive published messages.
+
+
+##Cloud_Architecture_Style
+
+
+![Captures](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/d2e81f31-20b0-4ebe-ba7f-7a94c4b870f8)
+
+
+1-AWS_Lambda
+
+Using AWS Lambda, you may build your own backend services that have the same scalability, speed, and security as the restof AWS's offerings, or you can add custom logic to existing AWS services.
+
+
+![Lambda](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/7e839557-8eb8-4282-8202-691af15306d2)
+
+
+2-SNS_Service
+
+
+![SNS_Confirm](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/f9ec7d46-9015-4250-aa9b-7ec8dd5c47a5)
+
+
+![emailmessage](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/b3c0e3f4-c6bd-431b-826b-73c386826d33)
+
+
+
+3-CloudWatch 
+
+X-Ray is a useful tool that was uncovered throughout the course of this research. It is applied to websites in order to improve their load times and determine how much latency they experience.
+
+
+![ServiceMap](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/3b880024-db59-4875-83b5-e569959a1bc0)
+
+
+![ARN1_Trace](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/72657a5e-06da-4ee4-8fbc-67ee4565822d)
+
+
+![1](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/2df1e0c3-0939-4a90-9db9-b69a83ca9d34)
+
+
+![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/51544647-b8bf-451d-b3d5-8bc9e6cd1a10)
+
+
+
+![ResourcofARN](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/5dceb0a2-f7a6-4c9a-80dd-b9349ba73610)
+
+
+
+![websitLink](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/5bd9978d-8125-4eba-abe6-259116b98e81)
+
+
+
+3-Amazon_X-Ray
+
+AWS X-Ray provides full end-to-end visibility by tracking requests to apps that
+span various AWS accounts, AWS Regions, and Availability Zones. However, the
+services map as it shown in the fig is works and the success percentage of whole
+web application is basically in in the fig below shows 86% ok.
+
+
+![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/1d5368c7-af97-43c5-a459-bc2cb3d0bb80)
+
+
+![2](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/851bb597-2d07-4ae3-9bf2-6ab3051f9ba8)
+
+
+![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/2ff8e1d0-6b85-4848-bc29-713d19a5f360)
+
+
+
+
+
+
 
 
 
