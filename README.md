@@ -30,7 +30,8 @@ can view staff data and receiving confirmation massage from staff. The real reas
 to solve the issues that happened during covid-19 between staffs and manager. However, as a 
 result this project will have the ability to communicate by using AWS SNS service. 
 
-Staff: 
+Staff:
+
 All features, including adding and deleting staff accounts, will be available to staff accounts. 
 They may control their own personal profile. Miners can be assigned to the specialized mining 
 facility by the administrative staff. However, the administration has complete control over 
