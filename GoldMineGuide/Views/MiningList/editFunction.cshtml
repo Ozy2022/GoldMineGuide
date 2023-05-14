@@ -1,0 +1,66 @@
+﻿@model GoldMineGuide.Models.Flower
+@{
+    ViewData["Title"] = "editFunction";
+}
+
+
+
+<center>
+    
+    <h1>Edit Mining</h1>
+    <h4>Update Your new info here: </h4>
+    <hr />
+    <form asp-action="editFunction" method="post">
+        <table border="1">
+            <tr>
+                <th><label asp-for="Mining_ID" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Mining_ID" class="form-control" readonly/>
+                    <span asp-validation-for="Mining_ID" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <th><label asp-for="Method_Name" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Method_Name"  class="form-control" />
+                    <span asp-validation-for="Method_Name" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <th><label asp-for="Mining_Place" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Mining_Place"  class="form-control" />
+                    <span asp-validation-for="Mining_Place" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <th><label asp-for="Process_Type" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Process_Type"  class="form-control" />
+                    <span asp-validation-for="Process_Type" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <th><label asp-for="Business_Type" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Business_Type"  class="form-control" />
+                    <span asp-validation-for="Business_Type" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <th><label asp-for="Mining_Produced_Date" class="control-label"></label></th>
+                <td>
+                    <input asp-for="Mining_Produced_Date" class="form-control" />
+                    <span asp-validation-for="Mining_Produced_Date" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center"><br /><input type="submit" name="submit" value="Update Your Mining Data" /><br /></td>
+            </tr>
+        </table>
+    </form>
+</center>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

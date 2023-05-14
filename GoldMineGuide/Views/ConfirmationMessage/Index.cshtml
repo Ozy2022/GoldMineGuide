@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (ViewBag.msg != "") //successfully send to message queue
+{
+    <script>alert("@ViewBag.msg");</script>
+}
+
+<center>
+    <h1>Confrmation Letter's tasks to The Manager</h1>
+    <br /><hr /><br />
+
+    <a asp-action="ViewMessage">View Process info (Manager)</a>
+    <br /><br />
+
+     <form method="post" asp-action="sendEmailMessage">
+        <label>Method Name: </label> 
+        <input type="text" name="methodname" required />
+        <br />
+        <label>Process info: </label> 
+        <input type="text" name="processtype" required />
+        <br />
+        <label>Mining Produced Date: </label> 
+        <input type="date" name="mpDate" required />
+        <br />
+        <br />
+        <input type="submit" name="submit" value="Send a confirmation of your daily Works" />
+     </form>
+    
+</center>
+
+

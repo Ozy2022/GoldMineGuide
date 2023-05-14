@@ -1,0 +1,26 @@
+﻿@model List<KeyValuePair<ManagerData, string>>
+@{
+    ViewData["Title"] = "ViewMessage";
+}
+
+<center>
+    <br />
+    <hr /><br />
+    <table border="1">
+        <tr>
+            <th>Method Name</th>
+            <th>Process Type</th>
+            <th>Mining Produced Date</th>
+        </tr>
+        @foreach (var item in Model)
+         {
+            <tr>
+                <th>@item.Key.MethodInfoName</th>
+                <th>@item.Key.ProcessType</th>
+                <th>@item.Key.MiningProducedDate/th>      
+            </tr>
+         }
+
+    </table>
+</center>
+

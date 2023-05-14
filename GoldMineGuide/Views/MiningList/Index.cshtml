@@ -1,0 +1,59 @@
+﻿@model IEnumerable<GoldMineGuide.Models.Flower>
+@{
+    ViewData["message"] = "Index";
+    //tempdata[]
+    //viewbag.XXX
+}
+
+@if (ViewBag.msg != "")
+{
+    <script>alert("@ViewBag.msg");</script>
+}
+
+@if (ViewBag.msga != "") //successfully send to message queue
+{
+    <script>alert("@ViewBag.msga");</script>
+}
+
+
+<center>
+
+    <h1>Mining Gold List</h1>
+    <p><a asp-action="createFunction">Create a New Mining in the List!</a></p>
+
+    <p>
+        <form>
+            Search Mining Method Keywords: <input type="text" name="MethodName" placeholder="e.g. Rock Hook" />
+            <input type="submit" name="submit" value="Search Method" />
+            <br />
+        </form>
+    </p>
+
+    <br />
+    @foreach (var miningitem in Model)
+    {
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="~/css/Images/Sterre.jpg" alt="Method_Name" width="600" height="400">
+            </a>
+            <div class="desc">
+                <h4>@miningitem.Method_Name</h4>
+                <p><b>Mining ID: </b> @miningitem.Mining_ID </p>
+                <p><b>Mining Place: </b> @miningitem.Mining_Place </p>
+                <p><b>Mining completion date: </b> @miningitem.Mining_Produced_Date </p>
+                <p><b>Mining Type: </b> @miningitem.Process_Type</p>
+            </div>
+            <div>
+                <p>
+                    <a asp-action="editFunction" asp-route-ID="@miningitem.Mining_ID"> <button>Edit</button> </a> &nbsp; &nbsp; &nbsp;
+                    <a asp-action="deleteFunction" asp-route-ID="@miningitem.Mining_ID" asp-route-MethodName="@miningitem.Method_Name"> <button>Delete</button> </a> &nbsp; &nbsp; &nbsp;
+                </p>
+            </div>
+
+        </div>
+        //<p>@miningitem.Mining_ID - @miningitem.Method_Name - @miningitem.Mining_Place - @miningitem.Process_Type - @miningitem.Mining_Produced_Date</p>
+
+    }
+
+</center>
+
