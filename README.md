@@ -1,13 +1,5 @@
-# Overview of GoldMineGuide project
+##Overview of The Gold_Mine_Guide ASP.NET MVC Project. 
 
-#Aim of the project
-
-In addition to the hosting of our mining website and the many solutions that it offers on a cloud 
-network rather than a single on-premises or remote server, the purpose of this system is to 
-increase the number of businesses that utilize cloud technology. Finally, we want to make sure 
-that our company only pays for the resources that it uses while also automating and controlling 
-our solutions through the utilization of application programming interfaces (APIs) and other 
-services.
 
 #Objectives 
 
