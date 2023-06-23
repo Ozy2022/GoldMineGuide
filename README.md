@@ -53,7 +53,7 @@ gold mining details.
 
 ![Gallery](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/4be086e2-9bc8-4488-aa57-029f3cb0614d)
 
-5-Privacy&Policye
+5-Privacy&Policy
 
 ![Capture](https://github.com/Ozy2022/GoldMineGuide/assets/96604157/e94639d8-04cd-467e-8651-a75981ce1785)
 
