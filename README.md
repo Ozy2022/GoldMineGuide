@@ -1,10 +1,4 @@
-##Overview of The Gold_Mine_Guide ASP.NET MVC Project. 
-
-Here’s a **simple and clear description** of the **Gold\_Mine\_Guide ASP.NET MVC Project**:
-
----
-
-### 🪙 **Gold Mine Guide — Simple Overview**
+### 🪙 **Gold Mine Guide**
 
 This is an **ASP.NET MVC web application** hosted on **AWS**, built for the **mining industry** to improve communication, project tracking, and data sharing between staff and management, especially post-COVID.
 
