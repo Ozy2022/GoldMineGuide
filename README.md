@@ -1,34 +1,80 @@
 ##Overview of The Gold_Mine_Guide ASP.NET MVC Project. 
 
-#Objectives 
+Here’s a **simple and clear description** of the **Gold\_Mine\_Guide ASP.NET MVC Project**:
 
-• To develop a scalable and user-friendly AWS-hosted web app tailored to the mining 
-sector.
-• To show that less time is needed to do the same task as traditional way.
-• To establish an online hub for team members and upper management to share 
-information and track progress on projects in real time.
-• To analyze cloud application throughput via Amazon Web Services' X-Ray service. 
-• To develop a website that is capable of adjusting its levels of service in accordance with 
-the peak session needs.
+---
 
-#User Roles 
+### 🪙 **Gold Mine Guide — Simple Overview**
 
-Manager:
+This is an **ASP.NET MVC web application** hosted on **AWS**, built for the **mining industry** to improve communication, project tracking, and data sharing between staff and management, especially post-COVID.
 
-The administrator account will continue to serve as the primary login. In order to view the staff 
-miner accounts, manager must log in with this account. A user with administrative privileges 
-can view staff data and receiving confirmation massage from staff. The real reason for this is 
-to solve the issues that happened during covid-19 between staffs and manager. However, as a 
-result this project will have the ability to communicate by using AWS SNS service. 
+### 🎯 Main Objectives:
 
-Staff:
+* Provide a **user-friendly web platform** for the mining sector.
+* Save time compared to traditional communication/reporting methods.
+* Enable **real-time project tracking** and updates.
+* Use **AWS X-Ray** for performance monitoring.
+* Allow **dynamic scalability** to handle peak usage.
 
-All features, including adding and deleting staff accounts, will be available to staff accounts. 
-They may control their own personal profile. Miners can be assigned to the specialized mining 
-facility by the administrative staff. However, the administration has complete control over 
-when mining sites are added or removed. The miner's report on the site's current status will be 
-visible to staff accounts as well. In addition, the staff have the ability to edit, create and delete 
-gold mining details. 
+---
+
+### 👥 **User Roles**:
+
+#### 🧑‍💼 Manager (Admin):
+
+* Logs in to manage and view miner/staff accounts.
+* Can receive **confirmation messages** from staff.
+* Uses **AWS SNS** to communicate effectively.
+
+#### ⛏️ Staff (Miners):
+
+* Can create, edit, and delete **gold mining records**.
+* Manage personal profiles.
+* View site updates and post reports.
+* Admins assign miners to sites, but staff have full control over site detail entries.
+
+---
+
+### 📷 **Screens & Features**:
+
+**Part 1 – General Pages:**
+
+* **Home**
+* **About Us**
+* **Sign Up / Login**
+* **Gallery**
+* **Privacy & Policy**
+* **Services**
+
+**Part 2 – Mining Functionalities:**
+
+* View mining sites and info.
+* Send/receive confirmation messages.
+* View and manage user profiles.
+
+---
+
+### ☁️ **Cloud Features & AWS Tools**:
+
+* **AWS SNS**: Send notifications (email, SMS, push) to users.
+* **AWS Lambda**: Handle backend logic with scalability and security.
+* **Amazon CloudWatch & X-Ray**:
+
+  * Track and analyze performance.
+  * Monitor latency and success rates.
+  * Example result: 86% request success rate shown in service map.
+
+---
+
+### 🏗️ Cloud Architecture:
+
+The system uses a **serverless and scalable design**, relying heavily on AWS services to:
+
+* Reduce manual infrastructure management.
+* Improve communication.
+* Enhance user experience during peak sessions.
+
+---
 
 #Project_Screenshots:
 
